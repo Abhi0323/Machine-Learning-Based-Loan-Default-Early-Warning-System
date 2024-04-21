@@ -1,0 +1,35 @@
+body {
+    background-color: #f4f9ff; /* Lighter blue background for a fresher look */
+    color: #333; /* Keeping text readable */
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #007bff; /* Bright blue for headings */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary blue */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-label {
+    font-weight: bold; /* Make labels bold */
+}
+
+input[type="number"],
+select,
+.form-control {
+    border-radius: 5px; /* Rounded borders for inputs */
+}
